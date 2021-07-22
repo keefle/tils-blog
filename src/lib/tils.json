@@ -1,0 +1,210 @@
+[
+{
+  "title":    "Register task output",
+  "category": "Ansible",
+  "author":   "Mohammad Kefah",
+  "date":     "Thu Jun 24 01:00:44 2021 +0300",
+  "commit":   "09974ecea6e2f23bdb86ff9f5c9738660f538cb2",
+  "content":  "IyBSZWdpc3RlciBUYXNrIE91dHB1dAoKV2hlbiBydW5uaW5nIEFuc2libGUgdGFza3MsIHNvbWV0aW1lcyBpdCBpcyBuZWVkZWQgdG8gc3RvcmUgdGhlIG91dHB1dCBhcyBpdCBjYW4KZGV0ZXJtaW5lIHdoYXQgdG8gZG8gaW4gb3RoZXIgcHJvY2VlZGluZyB0YXNrcy4gT25lIGNhbiBkbyBzbyBieSBzdG9yaW5nIHRoZQpvdXRwdXQgb2YgdGhlIGRlc2lyZWQgdGFzayB1c2luZyB0aGUgcmVnaXN0ZXIgb3B0aW9uLgoKCkhlcmUgd2Ugc3RvcmUgdGhlIGxpbmVzIG91dHB1dHRlZCBieSBgY2F0YCwgcmVwcmVzZW50aW5nIFVSTHMgdG8gcGluZywgaW50byBhCnZhcmlhYmxlIGNhbGxlZCBgdXJsbGlzdGAuCgpgYGB5YW1sCi0gbmFtZTogIlJldHJpZXZlIFVSTFMgdG8gdmlzaXQiCiAgY29tbWFuZDoKICAgIGNtZDogY2F0IC9ldGMvdXJsLWxpc3QKICByZWdpc3RlcjogdXJsbGlzdAogICMgVGhlIGJlbG93IG9wdGlvbiBpcyBoZWxwZnVsIHRvIHN0b3Agc2hvd2luZyBhIGNoYW5nZWQgcHJvY2VzcyB3aGVuIHJ1bm5pbmcgYW5zaWJsZQogIGNoYW5nZWRfd2hlbjogZmFsc2UKYGBgCgpJbiB0aGUgY2FzZSBvZiB0aGUgYGNvbW1hbmRgIG1vZHVsZSwgaXQgcmV0dXJucyBhbiBvYmplY3Qgd2l0aCBtYW55IGZpZWxkcy4gIEZyb20KdGhlIHVybGxpc3QgdmFyaWFibGUsIHRoZSBmaWVsZCB3ZSBhcmUgaW50ZXJlc3RlZCBpbiBpcyBjYWxsZWQgYHN0ZG91dF9saW5lc2AuIEl0CmlzIHNpbXBseSBhIGxpc3Qgb2YgdGhlIGxpbmVzIG91dHB1dHRlZCBieSB0aGUgY29tbWFuZCByYW4gcHJldmlvdXNseS4gV2UgY2FuIHVzZQppdCBub3cgaW4gZnVydGhlciB0YXNrcyBhcyBzdWNoOiAoRXhhbXBsZSB3aGVyZSB3ZSBwaW5nIGVhY2ggb2YgdGhlIFVSTHMgNCB0aW1lcykKCmBgYHlhbWwKLSBuYW1lOiBQaW5nIFVSTFMKICBjb21tYW5kOgogICAgY21kOiBwaW5nIC1jIDQgInt7IGl0ZW0gfX0iCiAgd2l0aF9pdGVtczogInt7IHVybGxpc3Quc3Rkb3V0X2xpbmVzIH19IgpgYGAK"
+},
+{
+  "title":    "When to run",
+  "category": "Ansible",
+  "author":   "Mohammad Kefah",
+  "date":     "Thu Jun 24 01:00:44 2021 +0300",
+  "commit":   "09974ecea6e2f23bdb86ff9f5c9738660f538cb2",
+  "content":  "IyBXaGVuIHRvIFJ1bgoKU29tZXRpbWVzLCBvbmUgd291bGQgbGlrZSB0byBzcGVjaWZ5IHdoZW4gYSB0YXNrIHNob3VsZCBiZSBydW4uIEl0IGlzIGVhc3kgdG8gZG8Kc28gdmlhIHRoZSBgd2hlbjpgIGZpZWxkIGFzIHN1Y2g6CgpgYGB5YW1sCi0gbmFtZTogUGFzcyBHbyBhbmQgQ29sbGVjdCAkMjAwCiAgc2hlbGw6CiAgICBjbWQ6IGNkIH4vZ28vICYmIGNhdCBjb2xsZWN0CiAgd2hlbjogKGx1Y2sgPiAwLjkpCmBgYAo="
+},
+{
+  "title":    "Add clear mode for vi bash",
+  "category": "Bash",
+  "author":   "Mohammad Kefah",
+  "date":     "Mon Jul 12 02:09:31 2021 +0300",
+  "commit":   "9bb88f6ab2d09dbbe2b72ac5e1a500e8d5f2f1c8",
+  "content":  "IyBBZGQgQ2xlYXIgTW9kZSBPcHRpb24gZm9yIFZJIG1vZGUgaW4gYmFzaAoKVW5mb3J0dW5hdGVseSwgYnkgZGVmYXVsdCB0aGUgdmkgbW9kZSBpbiBiYXNoIGRvZXMgbm90IGhhdmUgYSBiaW5kaW5nIHRvIGNsZWFuIHRoZSBzY3JlZW4gd2hpbGUgaW4gaW5zZXJ0IG1vZGUuIEluIG9yZGVyCnRvIGFkZCBpdCBvbmUgbmVlZHMgdG8gc2V0IGl0IG1hbnVhbGx5IGFzIHN1Y2g6CgpgYGBiYXNoCmJpbmQgLW0gdmktaW5zZXJ0ICdDb250cm9sLWw6IGNsZWFyLXNjcmVlbicKYGBgCgpUaGUgbGluZSBhYm92ZSBjYW4gYmUgcmFuIChvbmx5IGxhc3RzIHdpdGhpbiBzZXNzaW9uKSBvciBhZGRlZCB0byBvbmUncyBgLmJhc2hyY2AuCg=="
+},
+{
+  "title":    "Exit edit command mode",
+  "category": "Bash",
+  "author":   "Mohammad Kefah",
+  "date":     "Mon Jul 12 02:09:31 2021 +0300",
+  "commit":   "9bb88f6ab2d09dbbe2b72ac5e1a500e8d5f2f1c8",
+  "content":  "IyBFeGl0IEJhc2gncyBlZGl0IGNvbW1hbmQgbW9kZSAoZnJvbSB2aW0pCgpXaGVuIHdyaXRpbmcgY29tcGxleCBjb21tYW5kcyBpbiB0aGUgc2hlbGwsIHNvbWV0aW1lcyBvbmUgbmVlZHMgdG8gZHJvcCBpbnRvIHRoZWlyIGVkaXRvciB0byBlYXNlIHRoZSBwcm9jZXNzLiBJbiBiYXNoCnRoaXMgaXMgZG9uZSBieSBlaXRoZXIgYDxDLXg+PEMtZT5gIChFbWFjcyBsaW5lIG1vZGUpIG9yIGJ5IHByZXNzaW5nIGB2YCAoVkkgbGluZSBtb2RlKS4KCgpJZiBvbmUncyBlZGl0b3IgaXMgYG5lby92aW1gLCB0aGVuIGV4aXN0aW5nLCBldmVuIHdpdGggYDpxIWAgd291bGQgcnVuIHdoYXRldmVyIHRoZXkgaGFkIGluIHRoZWlyIGVkaXRvciB3aGljaCBjYW4gYmUKZGFuZ2Vyb3VzIGVzcGVjaWFsbHkgaWYgdGhlIGludGVudGlvbiB3YXMgdG8gYWJvcnQgZWRpdGluZy4gSW4gb3JkZXIgdG8gZW5mb3JjZSBhYm9ydGluZyB0aGUgZXhlY3V0aW9uIG9mIHRoZSBidWZmZXIncwpjb250ZW50IG9uIGV4aXQsIG9uZSBjYW4gaW5zdHJ1Y3QgYG5lby92aW1gIHRvIGV4aXQgd2l0aCBhIG5vbmUtemVybyB2YWx1ZSBhcyBzdWNoOgoKYGBgdmltCjpjcQpgYGAK"
+},
+{
+  "title":    "Access project storage in cloud function",
+  "category": "Firebase",
+  "author":   "Mohammad Kefah",
+  "date":     "Sun Jul 4 22:36:34 2021 +0300",
+  "commit":   "fe1072efbcbda8874e9262a361475d5a0e81af99",
+  "content":  "IyBBY2Nlc3MgUHJvamVjdCBTdG9yYWdlIGluIGNsb3VkIGZ1bmN0aW9ucwoKVGhlcmUgbWlnaHQgYmUgYSBtb3JlICJjb3JyZWN0IiB3YXkgb2YgZG9pbmcgaXQgYnV0IHRoYXQncyB3aGF0IEkgZm91bmQgZm9yIG5vdzoKCmBgYGphdmFzY3JpcHQKY29uc3QgYWRtaW4gPSByZXF1aXJlKCJmaXJlYmFzZS1hZG1pbiIpOwoKYWRtaW4uaW5pdGlhbGl6ZUFwcCh7IHN0b3JhZ2VCdWNrZXQ6ICI8QnVja2V0IE5hbWU+LmFwcHNwb3QuY29tIiB9KQoKLy8gTm93IG9uZSBjYW4gYWNjZXNzIHRoZSBidWNrZXQgb2JqZWN0IGluc2lkZSBvZiB0aGUgcHJvamVjdCdzIHN0b3JhZ2UKY29uc3QgYnVja2V0ID0gYWRtaW4uc3RvcmFnZSgpLmJ1Y2tldCgpCmBgYAo="
+},
+{
+  "title":    "Bypass cors in cloud functions",
+  "category": "Firebase",
+  "author":   "Mohammad Kefah",
+  "date":     "Sun Jul 4 22:29:33 2021 +0300",
+  "commit":   "de3c39a6c547112bd97119510b86c564ed009880",
+  "content":  "IyBCeXBhc3MgQ09SUyBpbiBjbG91ZCBmdW5jdGlvbnMKClRvIGJ5cGFzcyBDT1JTIGVycm9ycyAoYnV0IG9uZSBuZWVkcyB0byB1bmRlcnN0YW5kIGl0IGZpcnN0IHJhdGhlciB0aGFuIGZhbGxpbmcKaW50byB0aGUgdGFyIHBpdCBvZiBpbW1lZGlhY3kgbGlrZSBtZSkgaW4gYSBjbG91ZCBmdW5jdGlvbiBvbmUgY2FuIGRvIHRoZSBmb2xsb3dpbmc6CgpgYGBqYXZhc2NyaXB0CmNvbnN0IGNvcnMgPSByZXF1aXJlKCJjb3JzIikoeyBvcmlnaW46IHRydWUgfSk7CgpleHBvcnRzLndoeUF2b2lkQ29ycyA9IGZ1bmN0aW9ucy5odHRwcy5vblJlcXVlc3QoKHJlcXVlc3QsIHJlc3BvbnNlKSA9PiB7CiAgY29ycyhyZXF1ZXN0LCByZXNwb25zZSwgKCkgPT4gewogICAgLy8gRnVuY3Rpb24gY29kZSBnb2VzIGhlcmUKICAgIC4uLgogIH0pOwp9KTsKYGBgCg=="
+},
+{
+  "title":    "Pre commit hook",
+  "category": "Git",
+  "author":   "Mohammad Kefah",
+  "date":     "Mon Jun 7 23:21:13 2021 +0300",
+  "commit":   "bc97e8dd070f447a5e6448ac48a5d1250fe6bd68",
+  "content":  "IyBQcmUgQ29tbWl0IGhvb2sKCkdpdCBvZmZlcnMgbWFueSBob29rcyB0byB1c2UgZm9yIHZhcmlvdXMgdGFza3MgdGhhdCBuZWVkIHRvIGJlIHJ1biBwcmUvcG9zdApjb21taXRzLCBtZXJnZXMgYW5kIG1hbnkgb3RoZXIgZXZlbnRzLiBUbyB1dGlsaXNlIHRoZW0gb25lIHNpbXBseSBuZWVkcyB0byBhZGQKYSBzY3JpcHQgdG8gYC5naXQvaG9va3MvYCBhbmQgbmFtZSBpdCBhY2NvcmRpbmcgdG8gdGhlaXIgbmVlZCBiYXNlZCBvbiBhCnByZWRldGVybWluZWQgc2V0IG9mIG5hbWVzIHN1Y2ggYXMgYHByZS1jb21taXRgLiBUaGlzIGNhbiBiZSBxdWl0ZSBoZWxwZnVsCmVzcGVjaWlhbGx5IGZvciBsaW50aW5nIGxvY2FsbHkgYmVmb3JlIG1ha2luZyBhIGNvbW1pdC4KCmBgYHNoZWxsCiMgTWFrZSBzdXJlIGZpbGVzIHBhc3MgdGhlIGxpbnQgY2hlY2sgYmVmb3JlIGNvbW1pdHRpbmcKaWYgISBsaW50IGZpbGVzOyB0aGVuCiAgICAgY2F0IDw8XEVPRgogRXJyb3I6IEZpbGVzIGZhaWxlZCBsaW50IGNoZWNrCkVPRgogICAgZXhpdCAxCmZpCmBgYAo="
+},
+{
+  "title":    "Functional options",
+  "category": "Go",
+  "author":   "Mohammad Kefah",
+  "date":     "Mon Jun 7 18:36:25 2021 +0300",
+  "commit":   "bbab81b21d927bb1fec0e727870205e558b28bc8",
+  "content":  "IyBGdW5jdGlvbmFsIE9wdGlvbnMKCkEgd2F5IHRvIG1ha2UgaXQgc2ltcGxlciB0byBhZGQgbmV3IHBhcmFtZXRlcnMgdG8gc3RydWN0dXJlcyB3aXRob3V0IGhhdmluZyB0bwplZGl0IHRoZSBjb25zdHJ1Y3RvciBldmVyeSB0aW1lLgoKYGBgZ28KdHlwZSBTdHJ1Y3RPcHRpb25zIGZ1bmMoKlN0cnVjdCkKYGBgCgpUaGUgYWJvdmUgdHlwZSBpcyB0aGUgdHlwZSB3aGljaCB3aWxsIGJlIHBhc3NlZCB0byB0aGUgY29uc3RydWN0b3IgYXMgYQp2YXJpYWRpYyBwYXJhbWV0ZXIuIFRoZW4gYXMgc2hvd24gYmVsb3csIHRoZSBvcHRpb25zIGFyZSBhcHBsaWVkIHRvIHRoZSBzdHJ1Y3QKb25lIGJ5IG9uZSwgYnkgcGFzc2luZyB0aGUgc3RydWN0IHRvIHRoZSBvcHRpb24gZnVuY3MuCgpgYGBnbwpmdW5jIE5ld1N0cnVjdChvcHRpb25zIC4uLlN0cnVjdE9wdGlvbnMpIHsKICAgIC4uLgoKICAgIHN0cmN0IDo9ICZTdHJ1Y3R7fQoKICAgIC4uLgoKICAgIC8vIEFwcGx5IHRoZSBvcHRpb25zIG9uIHRoZSBzdHJ1Y3QKICAgIGZvciBfLCBvcHRzIDo9IHJhbmdlIG9wdGlvbnMgewogICAgICAgIG9wdHMoc3RyY3QpCiAgICB9CgogICAgLi4uCn0KYGBgCg=="
+},
+{
+  "title":    "Reactivly push element to array",
+  "category": "Javascript",
+  "author":   "Mohammad Kefah",
+  "date":     "Sun Jul 4 22:22:59 2021 +0300",
+  "commit":   "b500b2268791c8f38cb0fc90bab51d2eb63116f0",
+  "content":  "IyBSZWFjdGl2bHkgUHVzaCBFbGVtZW50IHRvIEFycmF5CgpTb21ldGltZXMgd2hlbiB1c2luZyBhIHJlYWN0aXZlIGZyb250ZW5kIGZyYW1ld29yayAoYHN2ZWx0ZWAsIGB2dWVqc2ApLCBwdXNoaW5nCmVsZW1lbnRzIHRvIGFycmF5cyB1c2luZyB0aGUgYC5wdXNoYCBtZXRob2QgZG9lcyBub3QgdHJpZ2dlciByZWFjdGl2ZSBjaGFuZ2UuClRoZXJlIGFyZSBob3dldmVyIGFub3RoZXIgd2F5IG9mIHB1c2hpbmcgZWxlbWVudHMgdGhhdCB3aWxsIGZvcmNlIHRoZSByZWFjdGl2ZQpjaGFuZ2UgdG8gdGFrZSBwbGFjZS4gVGhpcyB3YXkgcmVsaWVzIG9uIGNyZWF0aW5nIGEgbmV3IGFycmF5IGFuZCBhc3NpbmdpbmcgaXQgdG8KdGhlIHNhbWUgdmFyaWFibGUgYXMgZm9sbG93czoKCmBgYGphdmFzY3JpcHQKbGV0IGFyciA9IFsiQmFuYW5hIiwgIk9yYW5nZSIsICJBcHBsZSJdOwoKLy8gVGhlIG5ldyBmb3JjZWQgYXNzaWdubWVudCBiZWxvdyB0cmlnZ2VycyBtYW55IHJlYWN0aXZlIGJhc2VkIG1vZGVscwphcnIgPSBbLi4uYXJyLCAiQXZvY2FkbyJdOwpgYGAK"
+},
+{
+  "title":    "Add package to system",
+  "category": "Nixos",
+  "author":   "Mohammad Kefah",
+  "date":     "Mon Jun 28 00:08:00 2021 +0300",
+  "commit":   "6ffa02221dc5ed2f1ef3e363cc5396522af9700d",
+  "content":  "IyBBZGQgUGFja2FnZSB0byBTeXN0ZW0KCk9uZSB3YXkgdG8gYWRkIHBhY2thZ2VzIHRvIE5peE9TIGlzIHRvIGFkZCB0aGUgcmVxdWlyZWQgcGFja2FnZXMgdG8gdGhlIHBrZ3MgbGlzdAppbiB0aGUgYC9ldGMvbml4b3MvY29uZmlndXJhdGlvbi5uaXhgIGFzIGZvbGxvd3M6CgpgYGBuaXgKZW52aXJvbm1lbnQuc3lzdGVtUGFja2FnZXMgPSB3aXRoIHBrZ3M7IFsKICAjIEFkZGVkIGxpbmUgYmVsb3cgdG8gaW5zdGFsbCB2aW0KICB2aW0KICBmaW5kdXRpbHMKICBnbnVtYWtlCiAgaXB1dGlscwogIGpxCiAgbmV0dG9vbHMKICBuZXRjYXQKICByc3luYwpdOwpgYGAKCk9uY2UgdGhlIGVkaXQgaXMgbWFkZSwgdGhlbiBhIHJlYnVpbGQgb2YgdGhlIHN5c3RlbSBpcyByZXF1aXJlZDoKCmBgYGJhc2gKIyBuaXhvcy1yZWJ1aWxkIHN3aXRjaApgYGAK"
+},
+{
+  "title":    "Generate password",
+  "category": "Openldap",
+  "author":   "Mohammad Kefah",
+  "date":     "Tue Jun 29 02:31:18 2021 +0300",
+  "commit":   "6be124b42965bf1c73368d610c1d24d101257de2",
+  "content":  "IyBHZW5lcmF0ZSBwYXNzd29yZAoKVGhlcmUgaXMgYWxyZWFkeSBhIHV0aWxpdHkgdG8gZ2VuZXJhdGUgaGFzaGVkIHBhc3N3b3JkcyBmb3Igb3BlbmxkYXAgdmlhIHRoZQpgc2xhcHBhc3N3ZGAgdXRpbGl0eSBhcyBzdWNoOgoKYGBgYmFzaCBzZXNzaW9uCiQgc2xhcHBhc3N3ZCAtcyAiZG9uJ3QgcGFzcyBtZSBhcyBhIHBhcmFtZXRlciIKe1NTSEF9QUk2SFR2ZXk4MWo1RVdpbjRRa1BZUXk4TnZsVUZZUnAKYGBgCg=="
+},
+{
+  "title":    "Perform authorised search",
+  "category": "Openldap",
+  "author":   "Mohammad Kefah",
+  "date":     "Mon Jul 12 02:22:42 2021 +0300",
+  "commit":   "3793019757b291af7343355e47fa1966ce2177a5",
+  "content":  "IyBQZXJmb3JtIEF1dGhvcmlzZWQgU2VhcmNoCgpPbmUgY2FuIGVhc2lseSBzZWFyY2ggb3BlbmxkYXAgdmlhIHRoZSBgbGRhcHNlYXJjaGAgY29tbWFuZCBhcyBmb2xsb3dzOgoKYGBgYmFzaAokICMgY29tbWFuZCAgZG4tb2YtdXNlciAgICAgICAgICAgICAgICAgICAgIHBhc3N3ZC1vZi11c2VyICBkbi1vZi1iYXNlLXNlYXJjaCAgICAgIHNlYXJjaC0idGVybSIKJCBsZGFwc2VhcmNoIC1EICJjbj1yb290LGRjPWV4YW1wbGUsZGM9Y29tIiAtdyA8cGFzc3dkPiAgICAgLWIgImRjPWV4YW1wbGUsZGM9Y29tIiAiKG9iamVjdGNsYXNzPSopIgpgYGAK"
+},
+{
+  "title":    "Convert between different mesh formats",
+  "category": "Photogrammetry",
+  "author":   "Mohammad Kefah",
+  "date":     "Fri May 28 16:13:10 2021 +0300",
+  "commit":   "7e93f43ec14f1859608405bcf08a103c0b0d0c42",
+  "content":  "IyBDb252ZXJ0IEJldHdlZW4gRGlmZmVyZW50IE1lc2ggRm9ybWF0cwoKVGhlcmUgYXJlIG1hbnkgZm9ybWF0cyBmb3IgM0QgYXNzZXRzIHN1Y2ggYXMgT0JKLCBWRlgsIEdMVEYvR0xCLCBVU0RaLCBQTFkgYW5kCm1hbnkgb3RoZXJzLiBNYW55IHRpbWVzIGl0IGlzIHF1aXRlIGltcG9ydGFudCB0byBzd2l0Y2ggYmV0d2VlbiB0aGVtLgoKKiBbVVNEWiBmcm9tIEdMVEYgKGZyb20gZ29vZ2xlKV0oaHR0cHM6Ly9naXRodWIuY29tL2dvb2dsZS91c2RfZnJvbV9nbHRmKQoqIFtGQlggdG8gR0xURiAoZnJvbSBmYWNlYm9vayldKGh0dHBzOi8vZ2l0aHViLmNvbS9mYWNlYm9va2luY3ViYXRvci9GQlgyZ2xURikKKiBbQ29udmVydCBiZXR3ZWVuIE9CSixWVEssUExZIGFuZCBvdGhlcnNdKGh0dHBzOi8vZ2l0aHViLmNvbS9mYWNlYm9va2luY3ViYXRvci9GQlgyZ2xURikK"
+},
+{
+  "title":    "Memoize function with cache",
+  "category": "Python",
+  "author":   "Mohammad Kefah",
+  "date":     "Sat Jun 5 20:49:05 2021 +0300",
+  "commit":   "45983953bd329348a36c4394626be227cff70e7a",
+  "content":  "IyBNZW1vaXplIGZ1bmN0aW9ucyB3aXRoIHRoZSBjYWNoZSBkaXJlY3RpdmUKCkluIHB5dGhvbiBvbmUgY2FuIG1lbW9pemUgYSBmdW5jdGlvbiB3aXRoIGEgc2luZ2xlIGRpcmVjdGl2ZS4KCgpgYGBweXRob24KZnJvbSBmdW5jdG9vbHMgaW1wb3J0IGNhY2hlCgojIEEgRmlib25hY2NpIGZ1bmN0aW9uIHdpdGggbWVtb2l6YXRpb24KQGNhY2hlCmRlZiBmaWJvKG4pOgogICAgaWYgbiA8PSAyOgogICAgICAgIHJldHVybiAxCgogICAgcmV0dXJuIGZpYm8obi0xKSArIGZpYm8obi0yKQpgYGAKCk9uZSB0aGluZyB0byBrZWVwIGluIG1pbmQgaXMgdGhhdCB0aGUgcGFyYW1ldGVycyBvZiB0aGUgdGFyZ2V0ZWQgZnVuY3Rpb24gbXVzdApiZSBoYXNoYWJsZSAoZm9yIGV4YW1wbGUgb25lIGNhbm5vdCB1c2UgbGlzdHMgYXMgaW5wdXRzLCBidXQgY2FuIHVzZSB0dXBsZXMpLgo="
+},
+{
+  "title":    "Mount google drive on colab",
+  "category": "Python",
+  "author":   "Mohammad Kefah",
+  "date":     "Sun Jun 20 14:08:35 2021 +0300",
+  "commit":   "f218cbb3e7e8abe80fb1171941ec86c812c2b39d",
+  "content":  "IyBNb3VudCBHb29nbGUgRHJpdmUgb24gQ29sYWIKClRvIHNpbXBseSBtb3VudCB5b3VyIGdvb2dsZSBkcml2ZSBpbnRvIGEgZ29vZ2xlIGNvbGFiIHNlc3Npb24sIHVzZSB0aGUgYnVpbHRpbgpgZ29vZ2xlLmNvbGFiYCBsaWJyYXJ5IGFzIGZvbGxvd3M6CgpgYGBweXRob24KZnJvbSBnb29nbGUuY29sYWIgaW1wb3J0IGRyaXZlCgpkcml2ZS5tb3VudCgiL21udCIpCmBgYAoKSXQgd2lsbCBwcm92aWRlIGEgbGluayB3aGljaCBnZW5lcmF0ZXMgYSB0b2tlbiBmb3IgeW91ciBkZXNpcmVkIGdvb2dsZSBhY2NvdW50LAp3aGljaCB0aGVuIHlvdSBjYW4gcGFzdGUgYmFjayBpbiB0aGUgcHJvbXB0IGNyZWF0ZWQuCgpJZiB5b3Ugd2FudGVkIHRvIGFjY2VzcyBhIHNoYXJlZCByZXNvdXJjZSBvbiBnb29nbGUgY29sYWIsIGl0IGNhbiBiZSBoYXJkIHRvCmxvY2F0ZSB0aGVyZWZvcmUgaXRzIGJldHRlciB0byBgIkFkZCBzaG9ydGN1dCB0byBEcml2ZSJgIHNvIHRoYXQgaXQgY2FuIGJlIGZvdW5kCmVhc2lseSBvbmNlIHRoZSBkcml2ZSBpcyBtb3VudGVkLgo="
+},
+{
+  "title":    "Exists in check",
+  "category": "Sql",
+  "author":   "Mohammad Kefah",
+  "date":     "Tue Jun 15 15:53:47 2021 +0300",
+  "commit":   "1a2d556245cf525b90d9d044969df99b64c79b6b",
+  "content":  "IyBFeGlzdHMgaW4gQ2hlY2sKCkluIHNxbCwgb25lIGNhbiBlYXNpbHkgZmluZCByZXN1bHRzIHRoYXQgYXJlIHByZXNlbnQgKG9yIG5vdCkgaW4gYSBzdWJxdWVyeSB2aWEgdGhlIGV4aXN0cyBzdGF0ZW1lbnQuCgpgYGBzcWwKLS0gQSBzaW1wbGUgZW1wbG95ZWVzIHRhYmxlCkNSRUFURSBUQUJMRSBlbXBsb3llZXMgKAogICAgIHBlcnNvbklEICBpbnQsCiAgICAgbWFuYWdlcklEIGludCwKICAgICBuYW1lICAgICAgdmFyY2hhcigyNTUpCik7CgotLSBQb3B1bGF0aW5nIGVtcGxveWVlcyAuLi4KSU5TRVJUIElOVE8gZW1wbG95ZWVzIChwZXJzb25JRCwgbWFuYWdlcklELCBuYW1lKSBWQUxVRVMgKDEsIE5VTEwsICJCb3NzIiAgICAgICk7CklOU0VSVCBJTlRPIGVtcGxveWVlcyAocGVyc29uSUQsIG1hbmFnZXJJRCwgbmFtZSkgVkFMVUVTICgyLCAxLCAgICAiVmljZSBCb3NzIiApOwpJTlNFUlQgSU5UTyBlbXBsb3llZXMgKHBlcnNvbklELCBtYW5hZ2VySUQsIG5hbWUpIFZBTFVFUyAoMywgMiwgICAgIkVtcGxveWVlIDEiKTsKSU5TRVJUIElOVE8gZW1wbG95ZWVzIChwZXJzb25JRCwgbWFuYWdlcklELCBuYW1lKSBWQUxVRVMgKDQsIDIsICAgICJFbXBsb3llZSAyIik7CgotLSBGaW5kIGVtcGxveWVlcyB0aGF0IGFyZSBub3QgbWFuYWdpbmluZyBhbnkgb3RoZXIgZW1wbG95ZWUKU0VMRUNUIG5hbWUgRlJPTSBlbXBsb3llZXMgZTEgV0hFUkUgTk9UIEVYSVNUUyAoU0VMRUNUIE5VTEwgRlJPTSBlbXBsb3llZXMgZTIgV0hFUkUgZTEucGVyc29uSUQgPSBlMi5tYW5hZ2VySUQpOwpgYGAK"
+},
+{
+  "title":    "Create copr project",
+  "category": "Sysadmin",
+  "author":   "Mohammad Kefah",
+  "date":     "Mon Jul 12 02:09:31 2021 +0300",
+  "commit":   "9bb88f6ab2d09dbbe2b72ac5e1a500e8d5f2f1c8",
+  "content":  "IyBDcmVhdGUgYSBDb3ByIFByb2plY3QKClVzaW5nIHRoZSBgY29wci1jbGlgIHRvb2wsIG9uZSBjYW4gZWFzaWx5IGNyZWF0ZSBhIHByb2plY3QgYW5kIGV2ZW4gc3BlY2lmeSB0aGUgZGVmYXVsdCBhcmNoZXMgdG8gYnVpbGQgYWdhaW5zdCBhcwpmb2xsb3dzOgoKYGBgCiQgY29wci1jbGkgY3JlYXRlIC0tY2hyb290IGZlZG9yYS0zMy14ODZfNjQgLS1jaHJvb3QgZmVkb3JhLTM0LXg4Nl82NCAtLWNocm9vdCBmZWRvcmEtcmF3aGlkZS14ODZfNjQgXAogICAgICAgICAgICAgICAgICAtLWRlc2NyaXB0aW9uICJJbnNlcnQgdmVyeSBjb29sIHByb2plY3QgZGVzY3JpcHRpb24gaGVyZSIgXAogICAgICAgICAgICAgICAgICAtLWluc3RydWN0aW9ucyAiYHN1ZG8gZG5mIGNvcHIgZW5hYmxlIDx1c2VybmFtZT4vPHByb2plY3Q+YCIKYGBgCg=="
+},
+{
+  "title":    "Force refresh dns cache",
+  "category": "Sysadmin",
+  "author":   "Mohammad Kefah",
+  "date":     "Thu Jun 24 01:00:44 2021 +0300",
+  "commit":   "09974ecea6e2f23bdb86ff9f5c9738660f538cb2",
+  "content":  "IyBGb3JjZSBSZWZyZXNoIEROUyBDYWNoZQoKSW4gRmVkb3JhIChhbmQgb3RoZXIgTGludXggYmFzZWQgZGlzdHJvcyB1c2luZyB0aGUgc2FtZSBETlMgY2FjaGUgc2VydmljZSksIG1vc3QKbGlrZWx5IHN5c3RlbWQtcmVzb2x2ZWQgaXMgdGhlIEROUyBjYWNoZS4gU29tZXRpbWVzLCBvbmUgd291bGQgbGlrZSB0byByZXNldCB0aGUKY2FjaGUgc28gdGhhdCBmcmVzaCBETlMgcXVlcmllcyBhcmUgbWFkZS4gSW4gb3JkZXIgdG8gZG8gc28sIG9uZSBuZWVkcyB0byB1c2UgdGhlCmByZXNvbHZlY3RsYCBjb21tYW5kIGFzIHN1Y2g6CgpgYGBiYXNoCiQgc3VkbyByZXNvbHZlY3RsIGZsdXNoLWNhY2hlcwpgYGAKCklmIG9uZSBtaWdodCB3YW50cyB0byBwZXJmb3JtIGEgbm9uIGNhY2hlLWRlc3RydWN0aXZlIHF1ZXJ5IHRoZXkgY2FuIHVzZSBkaWcgYW5kCnNwZWNpZnkgdGhlaXIgRE5TIHNlcnZlciBhcyBzdWNoOgoKYGBgYmFzaAokICMgICBAZG5zc2VydmVyIGRvbWFpbgokIGRpZyBAOC44LjguOCAgIGdvb2dsZS5jb20KYGBgCg=="
+},
+{
+  "title":    "Generate shadow compatible passwd hash",
+  "category": "Sysadmin",
+  "author":   "Mohammad Kefah",
+  "date":     "Tue Jun 29 02:25:11 2021 +0300",
+  "commit":   "3b745bba9e949b21b0aa5ffe9b1694abf9489bd9",
+  "content":  "IyBHZW5lcmF0ZSAvZXRjL3NoYWRvdyBjb21wYXRpYmxlIHBhc3N3b3JkIGhhc2gKClR1cm5zIG91dCB0aGVyZSBhcmUgbWFueSB3YXlzIHRvIGRvIHNvLCB0aGUgb25lIEkgZmVsdCB3YXMgdGhlIHNpbXBsZXN0IGlzIHRvIHVzZQpvcGVuc3NsIGFzIGZvbGxvd3M6CgpgYGBiYXNoIHNlc3Npb24KJCAjICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLTY6IHNoYTUxMgokIGVjaG8gImdyZWF0Li4gdGhlIHNlY3JldCBpcyBub3cgaW4gc2hlbGwgaGlzdG9yeSIgfCBvcGVuc3NsIHBhc3N3ZCAtNiAgICAgICAgIC1zYWx0ICJpbmp1cnkiIC1zdGRpbgogJDYkaW5qdXJ5JEJZaDQwTlJ2aWdGei94ZHdaRHJUQ2g5aHVYWGQ5Yks3YnouY1R3QXNaeDR5dC93ZUlsMVlnUngvenpPZGsubUw4LlQzc3NaL3RQOHRQRzJpYXBDVk0KYGBgCgpUaGVyZSBhcmUgb3RoZXIgaW50ZXJlc3Rpbmcgd2F5cyB3aGVyZSBpdCBjb21lcyBbZnJvbV0oaHR0cHM6Ly91bml4LnN0YWNrZXhjaGFuZ2UuY29tL3F1ZXN0aW9ucy84MTI0MC9tYW51YWxseS1nZW5lcmF0ZS1wYXNzd29yZC1mb3ItZXRjLXNoYWRvdykK"
+},
+{
+  "title":    "Get copr api keys",
+  "category": "Sysadmin",
+  "author":   "Mohammad Kefah",
+  "date":     "Mon Jul 12 02:09:31 2021 +0300",
+  "commit":   "9bb88f6ab2d09dbbe2b72ac5e1a500e8d5f2f1c8",
+  "content":  "IyBHZXQgQ29wciBBUEkga2V5cwoKSWYgb25lIHdpc2hlcyB0byB1c2UgdGhlIGBjb3ByLWNsaWAgdG9vbCB0byBtYW5hZ2UgdGhlaXIgY29wciByZXBvcyB0aGVuIG1vc3QgbGlrZWx5IHRoZXkgd2lsbCBuZWVkIHRvIGdlbmVyYXRlIEFQSQprZXlzLiBUbyBkbyBzbywgb25lIHNpbXBseSBuZWVkcyB0byB2aXNpdCB0aGUgY29wciBbQVBJIHBhZ2VdKGh0dHBzOi8vY29wci5mZWRvcmFpbmZyYWNsb3VkLm9yZy9hcGkvKSBhbmQgbG9naW4gdG8gdGhlaXIKYWNjb3VudC4KClRoZXkgd2lsbCBiZSBwcmVzZW50ZWQgd2l0aCBhbiBpbmkgZm9ybWF0dGVkIGNvZGUgYmxvY2sgYXMgZm9sbG93czoKCmBgYGluaQpbY29wci1jbGldCmxvZ2luID0gc29tZXJhbmRvbWJsYWgKdXNlcm5hbWUgPSB5b3VydXNlcm5hbWUKdG9rZW4gPSBhdmVyeXNlY3JldHRva2VuCmNvcHJfdXJsID0gYWNvcHJ1cmx3aWxsYmVoZXJlCiMgZXhwaXJhdGlvbiBkYXRlOiAxOTcwLTAxLTAxCmBgYAoKU2F2ZSBpdCBpbnRvIGB+Ly5jb25maWcvY29wcmAsIGFuZCB0aGVuIGBjb3ByLWNsaWAgd2lsbCBiZSBhYmxlIHRvIHJlYWQgaXQgYXV0b21hdGljYWxseS4K"
+},
+{
+  "title":    "List user installed packages",
+  "category": "Sysadmin",
+  "author":   "Mohammad Kefah",
+  "date":     "Thu Jun 24 01:14:37 2021 +0300",
+  "commit":   "d0be437228f7c3ecdbdaf1211bab776f18f93fc3",
+  "content":  "IyBMaXN0IFVzZXIgSW5zdGFsbGVkIFBhY2thZ2VzCgpJdCBpcyBxdWl0ZSBoZWxwZnVsIHRvIGxpc3QgdGhlIHBhY2thZ2VzIEkgaW5zdGFsbGVkIG1hbnVhbGx5IG9uIG15IG1hY2hpbmUsCmVzcGVjaWFsbHkgYmVmb3JlIHBlcmZvbXJpbmcgYSBmcmVzaCBpbnN0YWxsLCBzbyB0aGF0IEkga25vdyB3aGF0IHRvIGluc3RhbGwgd2hlbgp0aGUgZnJlc2ggc3lzdGVtIGlzIHVwIGFuZCBydW5uaW5nLiBBIHNpbXBsZSB3YXkgdG8gZG8gc28gaXMgdG8gcnVuOgoKYGBgYmFzaAokIGRuZiBoaXN0b3J5IHVzZXJpbnN0YWxsZWQgPiBwYWNrYWdlcy50eHQKYGBgCgpBIG1vcmUgaW50ZXJlc3RpbmcgYXBwcm9hY2ggaXMgZm91bmQKW2hlcmVdKGh0dHBzOi8vdW5peC5zdGFja2V4Y2hhbmdlLmNvbS9xdWVzdGlvbnMvNDQ1MDAzL2xpc3RpbmctcGFja2FnZXMtZXhwbGljaXRseS1pbnN0YWxsZWQtYnktdGhlLXVzZXItdXNpbmctZG5mKSwKaW4gd2hpY2ggYSBjb21iaW5hdGlvbiBvZiB0aGUgYGxlYXZlc2AgZG5mIHBsdWdpbiAod2hpY2ggbGlzdHMgcGFja2FnZXMgbm90CnJlcXVpcmVkIGJ5IG90aGVyIGluc3RhbGxlZCBwYWNrYWdlcyksIGFuZCB0aGUgYGNvbW1gIChjb21wYXJlIGNvbW1hbmQpIGlzIHVzZWQKaW4gdGhlIGZvbGxvd2luZyBtYW5uZXI6CgpgYGBiYXNoCiQgIyAgICAtMTI6IFN1cHByZXNzIHRoZSBsaW5lcyB1bmlxIHRvIHRoZSBmaXJzdCBhbmQgc2Vjb25kICJmaWxlcyIKJCAjICAgICAgICAgICAgICAob25seSBsZWF2ZXMgMywgd2hpY2ggYXJlIHRoZSBsaW5lcyBmb3VuZCBpbiBib3RoKQokCiQgY29tbSAtMTIgPChkbmYgbGVhdmVzIHwgc29ydCkgPChzdWRvIGRuZiBoaXN0b3J5IHVzZXJpbnN0YWxsZWQgfCBzb3J0KQpgYGAK"
+},
+{
+  "title":    "Speedup dnf",
+  "category": "Sysadmin",
+  "author":   "Mohammad Kefah",
+  "date":     "Thu Jun 24 01:00:44 2021 +0300",
+  "commit":   "09974ecea6e2f23bdb86ff9f5c9738660f538cb2",
+  "content":  "IyBTcGVlZHVwIGRuZgoKVGhlIHBhY2thZ2UgbWFuYWdlciBpbiBGZWRvcmEgTGludXggY2FuIHNvbWV0aW1lcyBiZSBzbG93IChtYWlubHkgd2hlbiB1cGRhdGluZwpyZXBvc2l0b3JpZXMgYW5kIG1ldGFkYXRhKS4gQmV5b25kIHRoYXQgdGhlcmUgYXJlIHNvbWUgdHJpY2tzIHRvIChvciBhdApsZWFzdCBhdHRlbXB0IHRvKSBzcGVlZCB1cCB0aGUgcHJvY2VzczoKCiogIEluY3JlYXNpbmcgdGhlIG1heGltdW0gcGFycmFsZWwgZG93bmxvYWRzCiogIEVuYWJsaW5nIGZhc3Rlc3QgbWlycm9yIGNoZWNrIChyZWFkIHNvbWV3aGVyZSB0aGF0IGl0IG1pZ2h0IG5vdCBiZSBhcwogICBlZmZlY3RpdmUgYXMgb25lIG1pZ2h0IGhvcGUpCgpgYGBpbmkKIyBJbmNyZWFzZSBtYXggcGFycmFsZWwgZG93bmxvYWRzIGZyb20gMyB0byAxMAptYXhfcGFyYWxsZWxfZG93bmxvYWRzPTEwCgojIEVuYWJsZSBmYXN0ZXN0IG1pcnJvciBjaGVjaywgd2hpY2ggd29ya3MgYmFzZWQgb24gbGF0ZW5jeQpmYXN0ZXN0bWlycm9yPVRydWUKYGBgCg=="
+},
+{
+  "title":    "Upload src rpm to copr",
+  "category": "Sysadmin",
+  "author":   "Mohammad Kefah",
+  "date":     "Mon Jul 12 02:09:31 2021 +0300",
+  "commit":   "9bb88f6ab2d09dbbe2b72ac5e1a500e8d5f2f1c8",
+  "content":  "IyBVcGxvYWQgc291cmNlIHJwbSB0byBDb3ByCgpVc2luZyB0aGUgYGNvcHItY2xpYCB0b29sLCBvbmUgY2FuIGVhc2lseSB1cGxvYWQgYW4gc3JwbSB0aGV5IHByZXBhcmVkIHRvIG9uZSBvZiB0aGVpciBjb3ByIHJlcG9zIGFzIHN1Y2guCgpgYGBzaGVsbAokICMgICAgICAgIGFjdGlvbiBwcm9qbmFtZSBwYXRoLXRvLXNycG0KJCBjb3ByLWNsaSBidWlsZCAgY2JvbnNhaSAgY2JvbnNhaS12MS4yLjEtMS5mYzM0LnNyYy5ycG0KYGBgCgpUaGUgYWJvdmUgY29tbWFuZCB3aWxsIHVwbG9hZCB0aGUgYGNib25zYWlgIHNycG0gdG8gdGhlIGNib25zYWkgcHJvamVjdCBvbiBteSBjb3ByIGFjY291bnQuCg=="
+},
+{
+  "title":    "Convert virtualbox box to libvirt box",
+  "category": "Vagrant",
+  "author":   "Mohammad Kefah",
+  "date":     "Mon Jun 28 00:08:00 2021 +0300",
+  "commit":   "6ffa02221dc5ed2f1ef3e363cc5396522af9700d",
+  "content":  "IyBDb252ZXJ0IFZpcnR1YWxib3ggYm94IHRvIGxpYnZpcnQgYm94CgpXaGVuIHVzaW5nIHZhZ3JhbnQsIHNvbWV0aW1lcyB0aGUgYm94IG9uZSBuZWVkcyB0byB1c2UgZG9lcyBub3Qgc3VwcG9ydCB0aGUKcHJvdmlkZXJzIGF2YWlsYWJsZSBvbiB0aGUgc3lzdGVtLiBJbiBvcmRlciB0byBzb2x2ZSB0aGlzIGlzc3VlLCBhIHZhZ3JhbnQgcGx1Z2luCmNhbGxlZCBbdmFncmFudC1tdXRhdGVdKGh0dHBzOi8vZ2l0aHViLmNvbS9zY2l1cnVzL3ZhZ3JhbnQtbXV0YXRlKSB3YXMgY3JlYXRlZAp3aGljaCBhbGxvd3Mgb25lIHRvIGNvbnZlcnQgYm94ZXMgbWFkZSBmb3IgYSBzcGVjaWZpYyBwcm92aWRlciB0byBhbm90aGVyCnByb3ZpZGVyLgoKYGBgYmFzaAokIHZhZ3JhbnQgcGx1Z2luIGluc3RhbGwgdmFncmFudC1tdXRhdGUKYGBgCgpJdCBpcyBzaW1wbGUgdG8gdXNlLCBqdXN0IHNwZWNpZnkgdGhlIGJveCB5b3Ugd2hpY2ggdG8gY29udmVydCwgYW5kIHRoZSB0YXJnZXQKcHJvdmlkZXIgdGhhdCB5b3UgdXNlOgoKYGBgYmFzaAokIHZhZ3JhbnQgbXV0YXRlIG5peG9zL25peG9zLTE4LjAzLXg4Nl82NCBsaWJ2aXJ0CmBgYAoKU29tZXRpbWVzIG9uZSBtaWdodCBmYWNlIGlzc3VlcyB3aGVuIHJ1bm5pbmcgdGhlIGNvbnZlcnRlZCBib3guIEZvciBpbnN0YW5jZSBpbgp0aGUgYWJvdmUgZXhhbXBsZSwgdGhlIGNvbnZlcnRlZCBuaXhvcyBib3ggc3VmZmVycyBzb21lIGlzc3VlcyB3aXRoIE5GUy4KVGhlcmVmb3JlIGEgcXVpY2sgaGFjayBpcyB0byBvdmVycmlkZSBzdWNoIGRlZmF1bHRzIGJ5IFtjaGFuZ2luZyB0aGUgbmZzIHRvCnJzbnljIG9yIGV2ZW4gZGlzYWJsZSBpdF0oLi4vdmFncmFudC9zeW5jLWZvbGRlci10by12YWdyYW50LWJveC5tZCkK"
+},
+{
+  "title":    "Forward port to host",
+  "category": "Vagrant",
+  "author":   "Mohammad Kefah",
+  "date":     "Mon Jul 12 02:22:42 2021 +0300",
+  "commit":   "3793019757b291af7343355e47fa1966ce2177a5",
+  "content":  "IyBGb3J3YXJkIFBvcnQgdG8gSG9zdCBNYWNoaW5lCgpGb3J3YXJkaW5nIHBvcnRzIGlzIGVhc3kgaW4gdmFncmFudCBhbmQgY2FuIGJlIGRvbmUgYXMgZm9sbG93czoKCmBgYHJ1YnkKVmFncmFudC5jb25maWd1cmUoIjIiKSBkbyB8Y29uZmlnfAogIC4uLgogIGNvbmZpZy52bS5uZXR3b3JrICJmb3J3YXJkZWRfcG9ydCIsIGd1ZXN0OiAzODksIGhvc3Q6IDM4OTkKICAuLi4KZW5kCmBgYAoKSG93ZXZlciwgaWYgaXNzdWVzIGFyaXNlIG1ha2Ugc3VyZSB0byBjaGVjayBpZiB0aGUgZ3Vlc3QncyBzc2hkIGRhZW1vbiBhbGxvd3MgcG9ydCBmb3J3YXJkaW5nLgo="
+},
+{
+  "title":    "Sync folder to vagrant box",
+  "category": "Vagrant",
+  "author":   "Mohammad Kefah",
+  "date":     "Mon Jun 28 00:08:00 2021 +0300",
+  "commit":   "6ffa02221dc5ed2f1ef3e363cc5396522af9700d",
+  "content":  "IyBTeW5jIEZvbGRlciB0byBWYWdyYW50IGJveAoKVmFncmFudCBwcm92aWRlcyBtYW55IHdheXMgdG8gZXhjaGFuZ2UgZm9sZGVycy9maWxlcyB3aXRoIHRoZSB2aXJ0dWFsIG1hY2hpbmUuClJzeW5jIGlzIGEgc2ltcGxlIG9uZSBhbmQgaXMgZG9uZSBhcyBmb2xsb3c6CgpgYGBydWJ5CiMgICAgICAgICBwcm9jX25hbWUgICAgIGhvc3QgZm9sZGVyICB2bSBmb2xkZXIgICBtZXRob2Qgb2YgY29tbXVuaWNhdGlvbgpjb25maWcudm0uc3luY2VkX2ZvbGRlciAiLiIgICAgICAgICwgIi92YWdyYW50IiwgdHlwZTogInJzeW5jIgpgYGAKCklmIHlvdSBuZWVkZWQgdG8gZGlzYWJsZSB0aGUgc3luY2hyb25pemF0aW9uIHRlbXBvcmFyaWx5IHlvdSBjYW4gYXBwZW5kIGAsCmRpc2FibGVkOiB0cnVlYCB0byB0aGUgYHN5bmNfZm9sZGVyYCBjYWxsOgoKYGBgcnVieQpjb25maWcudm0uc3luY2VkX2ZvbGRlciAiLiIsICIvdmFncmFudCIsIHR5cGU6ICJyc3luYyIsIGRpc2FibGVkOiB0cnVlCmBgYAoKTW9yZSBvcHRpb25zIGNhbiBiZSBmb3VuZCBbaGVyZV0oaHR0cHM6Ly93d3cudmFncmFudHVwLmNvbS9kb2NzL3N5bmNlZC1mb2xkZXJzLykK"
+}
+]
